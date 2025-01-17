@@ -8,11 +8,12 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
+
+@Entity(name = "eventos")
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "eventos")
 public class Evento {
 
     @Id
